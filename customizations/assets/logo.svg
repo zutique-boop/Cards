@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 140" role="img" aria-label="Estampa">
+  <title>Estampa</title>
+  <!-- marco sutil, evocando un sello -->
+  <rect x="12" y="12" width="396" height="116" fill="none" stroke="#B65E41" stroke-width="1" stroke-dasharray="2 4" opacity="0.6"/>
+  <!-- wordmark -->
+  <text x="210" y="78"
+        text-anchor="middle"
+        font-family="'Playfair Display', 'Didot', 'Georgia', serif"
+        font-size="62"
+        font-style="italic"
+        font-weight="500"
+        fill="#3B2A20"
+        letter-spacing="1">Estampa</text>
+  <!-- filete decorativo -->
+  <line x1="120" y1="96" x2="195" y2="96" stroke="#B65E41" stroke-width="1"/>
+  <circle cx="210" cy="96" r="2.5" fill="#B65E41"/>
+  <line x1="225" y1="96" x2="300" y2="96" stroke="#B65E41" stroke-width="1"/>
+  <!-- bajada -->
+  <text x="210" y="116"
+        text-anchor="middle"
+        font-family="'Nunito', 'Helvetica Neue', Arial, sans-serif"
+        font-size="10"
+        font-weight="600"
+        fill="#B65E41"
+        letter-spacing="6">TARJETAS · ILUSTRADAS</text>
+</svg>

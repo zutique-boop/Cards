@@ -80,15 +80,26 @@ Estas cosas **no se configuran en el tema sino en el admin**:
    - `nacimiento`
 9. **Páginas a crear**: `sobre-nosotros`, `artistas`, `envios`, `cambios-y-devoluciones`, `preguntas-frecuentes`.
 
+## Logo, páginas y productos de ejemplo
+
+- **Logo**: `customizations/assets/logo.svg` — wordmark en serif itálico con paleta de la marca. `setup.sh` lo copia a `dawn/assets/logo.svg`. Para usarlo: admin de Shopify > **Online Store > Themes > Customize > Header > Logo**, y seleccionar `logo.svg`.
+- **Página "Sobre nosotros"**: `content/sobre-nosotros.html`. Crear la página en admin **Online Store > Pages > Add page** (handle: `sobre-nosotros`), y pegar el HTML en modo "Show HTML" del editor.
+- **Productos de ejemplo**: `data/productos-ejemplo.csv` — 10 tarjetas de muestra en formato Shopify (cumpleaños / amor / nacimiento / gracias / disculpas). Importar desde **Products > Import**. No incluye imágenes: después subís las fotos por producto.
+
 ## Estructura del repo
 
 ```
 customizations/
-  config/settings_data.json        → paleta, tipografías, estilos globales
+  assets/logo.svg                   → logo SVG
+  config/settings_data.json         → paleta, tipografías, estilos globales
   templates/index.json              → home
   templates/page.contact.json       → página de contacto
   sections/header-group.json        → announcement bar + header
   sections/footer-group.json        → footer
+content/
+  sobre-nosotros.html               → contenido de la página "Sobre nosotros"
+data/
+  productos-ejemplo.csv             → 10 productos en formato Shopify import
 setup.sh                            → descarga Dawn y aplica overlay
 README.md                           → este archivo
 ```

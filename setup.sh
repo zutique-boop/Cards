@@ -17,6 +17,7 @@ cp -v customizations/templates/index.json          dawn/templates/index.json
 cp -v customizations/templates/page.contact.json   dawn/templates/page.contact.json
 cp -v customizations/sections/header-group.json    dawn/sections/header-group.json
 cp -v customizations/sections/footer-group.json    dawn/sections/footer-group.json
+cp -v customizations/assets/logo.svg               dawn/assets/logo.svg
 
 echo ""
 echo "Listo. Tu tema está en la carpeta 'dawn/'."
