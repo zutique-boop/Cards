@@ -1,0 +1,29 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-0": { "type": "link_list", "settings": { "heading": "Tienda", "menu": "footer" } },
+        "footer-1": { "type": "link_list", "settings": { "heading": "Ayuda", "menu": "footer" } },
+        "footer-2": { "type": "text", "settings": { "heading": "Estampa", "subtext": "<p>Tarjetas ilustradas importadas, curadas desde Buenos Aires.</p><p>Escribinos a hola@estampa.com.ar</p>" } }
+      },
+      "block_order": ["footer-0", "footer-1", "footer-2"],
+      "settings": {
+        "color_scheme": "scheme-4",
+        "newsletter_enable": false,
+        "newsletter_heading": "Recibí novedades",
+        "show_social": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 48,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": ["footer"]
+}
